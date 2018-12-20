@@ -1,0 +1,24 @@
+{
+  "name": "typescript-issue-1-checkJS-lib",
+  "version": "1.0.0",
+  "description": "Illustrates a problem with checkJS when referencing a local repository.  This particular project is referenced by [this one](https://github.com/lukewis/typescript-issue-1-checkJS).",
+  "main": "./dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukewis/typescript-issue-1-checkJS-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukewis/typescript-issue-1-checkJS-lib/issues"
+  },
+  "homepage": "https://github.com/lukewis/typescript-issue-1-checkJS-lib#readme",
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
